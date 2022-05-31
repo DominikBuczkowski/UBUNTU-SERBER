@@ -1,3 +1,38 @@
+## Ogólny test komputera
+### 1. Pamięć RAM
+- `free` wolna pamięć, `free -m` w MB, `free -h` w GB
+-  "Menedżer urządzeń" `lshw -short` zapis urządzeń w PC, `lshw -c memory` Zajęte banki, taktowanie, typ, wielkość kości, model,
+
+
+### 2. Dyski 
+- `hdparm -i !ścieżka do dysku!` pokazuje *Model*               Patrz dysk twardy test1
+- `hdparm -i !ścieżka do dysku!` pokazuje *Numer seryjny*       Patrz dysk twardy test1
+> ścieżkę można sprawdzić przez `df`
+- `fdisk -l`LUB `df -h`  sprawdza ilość wolnego miejsca na dysk
+- Procent zajętego dysku `df -h`, wartość *use%*
+- `df -Th` sprawdza system pliku
+> XDXDXDXDSDXDX JAK SIĘ KURWA SCROLLUJE
+
+
+### 3. Procesor
+- `sudo cat /proc/cpuinfo` Wyświetla informacje o: zegarach, nazwie, modelu, liczbie rdzeni, pamięci CACHE, taktowanie
+
+
+### 4. Karta graficzna
+- `lshw -c display` wyświetla informacje o: producencie (*vendor*), zegarach, szerokości busa, modelu, generacji (zaraz po dwukropku w *product*)
+
+
+### 5. Karta sieciowa
+- `lshw -c network` wyświetla informacje o: nr seryjnym, prodcencie, modelu, wersji, adres MAC (*serial*)
+
+### 6. INNE
+- maska plików `umask`
+- aktualny użytkownik `whoami`
+- oznaczenie terminala użytkownika `who` *2 WARTOŚĆ KTÓRA SIĘ WYŚWIETLI*
+- długość czasu pracy komputera `uptime*
+
+***
+
 # Ubuntu Server – przygotowanie do egzaminu
 1.	Zaloguj się do systemu – login to administrator, hasło to Teb2022+  `nazwa użytkownika potem hasło`
 
