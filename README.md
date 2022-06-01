@@ -29,7 +29,7 @@
 - maska plików `umask`
 - aktualny użytkownik `whoami`
 - oznaczenie terminala użytkownika `who` *2 WARTOŚĆ KTÓRA SIĘ WYŚWIETLI*
-- długość czasu pracy komputera `uptime*
+- długość czasu pracy komputera `uptime`
 
 ***
 
