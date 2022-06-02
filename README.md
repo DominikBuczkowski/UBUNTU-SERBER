@@ -34,6 +34,9 @@
 - oznaczenie terminala użytkownika `who` *2 WARTOŚĆ KTÓRA SIĘ WYŚWIETLI*
 - długość czasu pracy komputera `uptime`
 
+### 7. Płyta główna
+- `sudo dmidecode -t 2` numer seryjnyh i producent
+- 
 ***
 
 # Ubuntu Server – przygotowanie do egzaminu
