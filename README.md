@@ -7,6 +7,9 @@
 ### 2. Dyski 
 - `hdparm -i !ścieżka do dysku!` pokazuje *Model*               Patrz dysk twardy test1
 - `hdparm -i !ścieżka do dysku!` pokazuje *Numer seryjny*       Patrz dysk twardy test1
+
+- `lshw -c disk` pokazuje *Numer seryjny*
+- 
 > ścieżkę można sprawdzić przez `df`
 - `fdisk -l`LUB `df -h`  sprawdza ilość wolnego miejsca na dysk
 - Procent zajętego dysku `df -h`, wartość *use%*
