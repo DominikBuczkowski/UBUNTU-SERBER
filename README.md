@@ -1,4 +1,5 @@
 ## Ogólny test komputera
+> ## Można dodać ` | grep "  "` pomiędzy te gówma i się wyświetla
 ### 1. Pamięć RAM
 - `free` wolna pamięć, `free -m` w MB, `free -h` w GB
 -  "Menedżer urządzeń" `lshw -short` zapis urządzeń w PC, `lshw -c memory` Zajęte banki, taktowanie, typ, wielkość kości, model,
@@ -19,6 +20,10 @@
 
 ### 3. Procesor
 - `sudo cat /proc/cpuinfo` Wyświetla informacje o: zegarach, nazwie, modelu, liczbie rdzeni, pamięci CACHE, taktowanie
+- `lscpu | grep "Model name"` Wyświetla model
+- `lscpu | grep "GHz"` Wyświetla taktowanie
+- `lscpu | grep "L1"` wyświelta L1 cache
+- `lscpu | grep "L2"` wyświelta L2 cache
 
 
 ### 4. Karta graficzna
