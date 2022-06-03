@@ -3,6 +3,7 @@
 ### 1. Pamięć RAM
 - `free` wolna pamięć, `free -m` w MB, `free -h` w GB
 -  "Menedżer urządzeń" `lshw -short` zapis urządzeń w PC, `lshw -c memory` Zajęte banki, taktowanie, typ, wielkość kości, model,
+-  `dmidecode -t memory | grep "Speed"` Sprawdza Mhz ramu
 
 
 ### 2. Dyski 
@@ -38,6 +39,9 @@
 - aktualny użytkownik `whoami`
 - oznaczenie terminala użytkownika `who` *2 WARTOŚĆ KTÓRA SIĘ WYŚWIETLI*
 - długość czasu pracy komputera `uptime`
+- `lsb_release -d"` Nazwa systemu
+- `uname -rv` Jądro systemu
+- `uname -m` Architektura systemu
 
 ### 7. Płyta główna
 - `sudo dmidecode -t 2` numer seryjnyh i producent
